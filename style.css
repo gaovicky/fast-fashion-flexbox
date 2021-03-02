@@ -1,0 +1,214 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  margin: 0px;
+}
+
+/* Making the height of the main container 100% */
+#MainContainer {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styling the Navigation Bar Background */
+#NavBar {
+  background-color: #b0a8b7;
+  overflow: hidden;
+  height: 7vh;
+  width: 100%;
+  color: #f2f2f2;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Style the links within the top navigation*/
+.TopNav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+}
+
+/* Change the color of the hovered links*/
+.TopNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the current link*/
+.TopNav a:active {
+  background-color: #ebbc85;
+  color: white;
+}
+
+/* Styling the logo's padding*/
+#LogoBox {
+  padding: 10px 20px 10px 20px;
+}
+
+/* Styling the Banner*/
+#BannerBox {
+  background-color: #ebbcb5;
+  height: 55vh;
+  width: 100%;
+  color: #fff;
+  font-size: 2em;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling the Contents in the "Problem" Page*/
+#Contents {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #737272;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling the rows in the "Problem" Page*/
+.row {
+  height: 50vh;
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Setting the size for the images*/
+.Picture {
+  width: 35vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+/* Styling the texts*/
+.Text {
+  width: 35vw;
+  height: 40vh;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+}
+
+/*Making the paragraph's margin 0*/
+p {
+  margin: 0px;
+}
+
+/* Styling the source*/
+.Source {
+  font-size: 1em;
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+/* unvisited source link */
+.Source a:link {
+  color: #737272;
+  text-decoration: none;
+}
+
+/* visited source link */
+.Source a:visited {
+  color: #737272;
+  text-decoration: none;
+}
+
+/* mouse over source link */
+.Source a:hover {
+  color: #737272;
+  text-decoration: underline;
+}
+
+/* selected source link */
+.Source a:active {
+  color: #b0a8b7;
+}
+
+/* Styling the content in "Solution" Page */
+#SolContents {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  color: #737272;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Styling the texts in "Solution" Page */
+#Info {
+  width: 30vw;
+  height: 100vh;
+  font-size: 1em;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Styling the div containing the images in "Solution" Page */
+.ImageBox{
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Styling the images*/
+.images {
+  width: 25vw;
+  height: 40vh;
+  object-fit: cover;
+  padding: 5px;
+}
+
+/*Styling the contents in the Videos Page*/
+#VidContents {
+  height: 80vh;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Making the text underneath the videos centered*/
+.VidRow {
+  text-align: center;
+}
+
+/* unvisited link */
+.VideoBox a:link {
+  color: #737272;
+  text-decoration: none;
+}
+
+/* visited link */
+.VideoBox a:visited {
+  color: #737272;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.VideoBox a:hover {
+  color: #ebbcb5;
+}
+
+/* selected link */
+.VideoBox a:active {
+  color: #b0a8b7;
